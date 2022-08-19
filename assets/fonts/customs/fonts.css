@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url('Dosis-SemiBold.eot');
+    src: url('Dosis-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Dosis-SemiBold.woff2') format('woff2'),
+        url('Dosis-SemiBold.woff') format('woff'),
+        url('Dosis-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('Dosis-Medium.eot');
+    src: url('Dosis-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Dosis-Medium.woff2') format('woff2'),
+        url('Dosis-Medium.woff') format('woff'),
+        url('Dosis-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('Dosis-Bold.eot');
+    src: url('Dosis-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Dosis-Bold.woff2') format('woff2'),
+        url('Dosis-Bold.woff') format('woff'),
+        url('Dosis-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('Dosis-Regular.eot');
+    src: url('Dosis-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Dosis-Regular.woff2') format('woff2'),
+        url('Dosis-Regular.woff') format('woff'),
+        url('Dosis-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mouse Memoirs';
+    src: url('MouseMemoirs-Regular.eot');
+    src: url('MouseMemoirs-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MouseMemoirs-Regular.woff2') format('woff2'),
+        url('MouseMemoirs-Regular.woff') format('woff'),
+        url('MouseMemoirs-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Italianno';
+    src: url('Italianno-Regular.eot');
+    src: url('Italianno-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Italianno-Regular.woff2') format('woff2'),
+        url('Italianno-Regular.woff') format('woff'),
+        url('Italianno-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Regular'), url('georgia.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Georgia Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Italic'), url('georgiai.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Georgia Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Bold'), url('georgiab.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Georgia Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Bold Italic'), url('georgiaz.woff') format('woff');
+    }

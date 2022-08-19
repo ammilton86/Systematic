@@ -1,0 +1,431 @@
+/*
+
+Project Name:A_Studio
+Author: Asad
+Support: ammilton86@gmail.com
+Description: A_Studio is creative html5 responsive template.
+Version: 1.0
+Company: amm network
+
+
+===============
+TABLE OF INDEX
+===============
+
+01.
+02.
+03.
+04.
+05.
+06.
+
+
+*/
+
+/* common css*/
+body {
+	color: #d6d7d6;
+	font-family: Georgia;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	clear: both;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Variables */
+:root {
+	--primary: #e34335;
+	--secondary: #ffffff;
+}
+
+.aligenleft {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.aligennright {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.aligencenter {
+	display: block;
+	margin: 0 auto 15px;
+	margin-bottom: 15px;
+}
+
+/* Header-Top css*/
+.header_top_area {
+	background-color: #ba2e1e;
+	padding: 15px 0;
+}
+
+.minimenu {
+	padding-top: 0px;
+}
+
+.minimenu ul {}
+
+.minimenu ul li {
+	display: inline-block;
+	text-align: left;
+	margin-right: 2px;
+	position: relative;
+}
+
+.minimenu ul li a {
+	color: #ffffff;
+	text-decoration: navajowhite;
+	font-size: 12px;
+	padding: 0px 6px;
+}
+
+.minimenu ul li::after {
+	background: #ffffff;
+	content: "";
+	position: absolute;
+	width: 1px;
+	top: 8px;
+	height: 12px;
+}
+
+.minimenu ul li:last-child::after {
+	display: none;
+}
+
+.inner_top_area {
+	float: right;
+}
+
+.inner_top_area form {
+	background: #fff;
+	max-width: 210px;
+	border-radius: 25px;
+	width: 100%;
+	padding: 0px 11px;
+}
+
+.inner_top_area input {
+	border: 0px solid;
+	width: 70%;
+	padding: 1%;
+	color: #000;
+	text-align: left;
+}
+
+.inner_top_area input[type="submit"] {
+	width: 27%;
+	background: url(../img/search.png);
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+
+/* Main-Header CSS */
+
+.main_header_area {
+	padding: 40px 0px;
+}
+
+.logo_area {}
+
+.social_area {
+	text-align: right;
+}
+
+.social_area ul {}
+
+.social_area ul li {
+	display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.social_area ul li a {
+	display: block;
+	text-decoration: none;
+}
+
+.social_area ul li a i {
+	display: block;
+	border-radius: 50%;
+	padding-top: 9px;
+	width: 35px;
+	text-align: center;
+	height: 35px;
+	transition: 0.5px;
+	background: #000;
+	color: #fff;
+}
+
+.social_area ul li a:hover i.fa-linkedin {
+	background: #143ebb;
+}
+
+.social_area ul li a:hover i.fa-twitter {
+	background: #2ea0e9;
+}
+
+.social_area ul li a:hover i.fa-pinterest {
+	background: #e0021d;
+}
+
+.social_area ul li a:hover i.fa-google-plus {
+	background: #bb322f;
+}
+
+.social_area ul li a:hover i.fa-rss {
+	background: #f87e3a;
+}
+
+/* Main_Menu CSS */
+#main_menu {}
+
+.inner_menu {
+	background: #323332;
+	position: relative;
+	max-height: 100%;
+	border-radius: 5px;
+	padding: 0px;
+	z-index: 1;
+}
+
+.inner_menu::after {
+	background: #2b2b2b;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	left: 0;
+	content: "";
+	z-index: -1;
+	bottom: 0;
+	border-radius: 5px;
+}
+
+
+#main_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+
+
+}
+
+#main_menu ul li {
+	display: inline-block;
+	margin: 0px;
+	position: relative;
+}
+
+#main_menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 15px 35px;
+	font-size: 12px;
+	transition: .5px;
+
+}
+
+.fa-angle-down {
+	margin-left: 10px;
+}
+
+.fa-angle-right {
+	margin-left: 10px;
+}
+
+#main_menu ul li a:hover {
+	color: #9b3025;
+
+}
+
+#main_menu ul li:hover a {
+	color: #9b3025;
+	background-color: #fff;
+}
+
+#main_menu ul li:hover ul li a {
+	color: #fff;
+	background-color: #2c2d2c;
+
+}
+
+#main_menu ul li ul li a:hover {
+	color: #9b3025;
+	background-color: #fff;
+
+}
+
+#main_menu ul li ul li:hover a {
+	color: #9b3025;
+	background-color: #fff;
+
+}
+
+#main_menu ul li ul li:hover ul li a {
+	color: #fff;
+	background-color: #2c2d2c;
+
+}
+
+#main_menu ul li ul li:hover ul li a:hover {
+	color: #9b3025;
+	background-color: #fff;
+
+}
+
+
+/* Dropdown Style */
+#main_menu ul ul {
+	position: absolute;
+	background: #2c2d2c;
+	width: 160px;
+	top: 54px;
+	text-align: center;
+	left: -99999px;
+}
+
+#main_menu ul li:hover ul {
+	left: 0px;
+
+}
+
+#main_menu ul li:hover ul ul {
+	left: -99999px;
+
+}
+
+#main_menu ul ul li:hover ul {
+	left: 160px;
+
+}
+
+#main_menu ul ul li {
+	margin: 0;
+	display: block;
+
+}
+
+#main_menu ul ul li a {
+	padding: 15px 0px;
+	color: #fff;
+
+}
+
+#main_menu ul ul ul {
+	left: 160px;
+	top: 0px;
+
+}
+
+#main_menu ul ul ul li {
+	display: block;
+
+
+}
+
+/* slider_area */
+
+.slider_area {
+	margin-top: 20px;
+}
+
+/* slick-prev button */
+
+.slick-prev {
+	left: 20px;
+	z-index: 999;
+
+}
+
+/* slick-next button */
+
+.slick-next {
+	right: 20px;
+	z-index: 999;
+}
+
+/* Slick Slider Dots */
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0px;
+}
+
+.slick-dots {
+	bottom: 10px;
+
+}
+
+.slick-dots li button:before {
+	font-family: 'slick';
+	font-size: 20px;
+	opacity: .45;
+	color: #fff;
+
+}
+
+.slick-dots li.slick-active button:before {
+	opacity: .85;
+	color: black;
+}
+
+/* paragraph_area */
+
+.paragraph_area {
+	margin-top: 20px;
+	padding: 0;
+	background: #ffffff;
+}
+
+.paragraph {
+	overflow: hidden;
+}
+
+.paragraph img {
+	margin-right: 35px;
+}
+
+.paragraph h2 {
+	color: #000000;
+	font-size: 86px;
+	line-height: 1em;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 100px;
+}
+
+.paragraph p {
+	color: #666666;
+	font-size: 16px;
+	line-height: 1em;
+}
+
+.paragraph a {
+	color: #ba2e20;
+	font-size: 16px;
+	float: right;
+	text-decoration: none;
+}
+
+/* Work Area CSS */
+
+.work_area {
+	background-color: #f1f2f1;
+	margin-top: -14px;
+}
