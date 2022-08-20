@@ -24,7 +24,7 @@ TABLE OF INDEX
 
 /* common css*/
 body {
-	color: #d6d7d6;
+	color: #323332;
 	font-family: Georgia;
 	font-size: 16px;
 	line-height: 1.5em;
@@ -428,4 +428,92 @@ ul {
 .work_area {
 	background-color: #f1f2f1;
 	margin-top: -14px;
+	padding-bottom: 40px;
+}
+
+.work_area h2 {
+	padding: 60px 0;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+.about_area {}
+
+
+.about_area p {
+	color: #888988;
+	text-align: justify;
+	font-size: 13px;
+}
+
+.about_area img {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 5px solid #dfdfdf;
+}
+
+.about_area a {
+	float: right;
+	text-decoration: none;
+	color: #c5584c;
+}
+
+.service_area {}
+
+.service_content {
+	margin-bottom: 40px;
+}
+
+
+.service_content p {
+	color: ##a4a5a4;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 0px 70px;
+}
+
+.service_content h1 {
+	font-size: 14px;
+	color: #868786;
+	font-weight: bold;
+}
+
+.service_img img {
+	float: left;
+	margin-right: 15px;
+}
+
+.service_area a {
+	float: right;
+	color: #ba2e20;
+	text-decoration: none;
+	font-size: 13px;
+	margin-top: -17px;
+}
+
+.potfolio_area {}
+
+.potfolio {
+	
+}
+
+.potfolio h1 {
+	color: #868786;
+	text-align: justify;
+	font-size: 16px;
+	}
+.potfolio p {
+	color: #868786;
+	text-align: justify;
+}
+.potfolio img {
+	float: left;
+	margin-right: 15px;
+}
+
+.potfolio a {
+	float: right;
+	color: #ba2e20;
+	text-decoration: none;
+	font-size: 13px;
 }
