@@ -469,7 +469,6 @@ ul {
 	color: ##a4a5a4;
 	font-size: 13px;
 	line-height: 20px;
-	padding: 0px 70px;
 }
 
 .service_content h1 {
@@ -491,29 +490,37 @@ ul {
 	margin-top: -17px;
 }
 
-.potfolio_area {}
+.potfolio_area {
+	overflow: hidden;
+}
 
 .potfolio {
-	
+	overflow: hidden;
 }
 
-.potfolio h1 {
-	color: #868786;
-	text-align: justify;
-	font-size: 16px;
-	}
-.potfolio p {
-	color: #868786;
-	text-align: justify;
+.potfolio_inner {
+	overflow: hidden;
+	padding-bottom: 10px;
 }
-.potfolio img {
+
+.potfolio_inner img {
 	float: left;
 	margin-right: 15px;
 }
 
+.potfolio_inner h1 {
+	font-size: 16px;
+	padding: 15px 0;
+}
+
+.potfolio p {
+	color: #868786;
+	text-align: justify;
+}
+
 .potfolio a {
-	float: right;
 	color: #ba2e20;
 	text-decoration: none;
 	font-size: 13px;
+	float: right;
 }
