@@ -599,8 +599,31 @@ ul {
 	margin-right: 10px;
 }
 
+.main_footer form {
+	
+}
+
 .main_footer input {
 	margin-bottom: 10px;
 }
+.main_footer input {
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 5px;
+	width: 100%;
+	height: 35px;
+	padding: 10px;
+}
 
-.input[type=text]{background-color:#f1f2f1 ;}
+.main_footer input[type=text]{background-color:#f1f2f1;transition: width 0.4s ease-in-out;}
+
+.main_footer textarea {
+	margin-bottom: 20px;
+	background-color: #f1f2f1;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+}
+
+.copyright_area{background-color: #f1f2f1;padding: 20px 0;}
+.copyright_area p{}
