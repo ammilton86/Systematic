@@ -397,11 +397,11 @@ ul {
 	overflow: hidden;
 }
 
-.paragraph img {
+.paragraph_img img {
 	margin-right: 35px;
 }
 
-.paragraph h2 {
+.paragraph_content h2 {
 	color: #000000;
 	font-size: 86px;
 	line-height: 1em;
@@ -410,13 +410,14 @@ ul {
 	margin-top: 100px;
 }
 
-.paragraph p {
+.paragraph_content p {
 	color: #666666;
 	font-size: 16px;
-	line-height: 1em;
+	line-height: 25px;
+	text-align: justify;
 }
 
-.paragraph a {
+.paragraph_content a {
 	color: #ba2e20;
 	font-size: 16px;
 	float: right;
@@ -436,9 +437,6 @@ ul {
 	font-size: 26px;
 	font-weight: normal;
 }
-
-.about_area {}
-
 
 .about_area p {
 	color: #888988;
@@ -466,7 +464,7 @@ ul {
 
 
 .service_content p {
-	color: ##a4a5a4;
+	color: #868786;
 	font-size: 13px;
 	line-height: 20px;
 }
@@ -489,6 +487,8 @@ ul {
 	font-size: 13px;
 	margin-top: -17px;
 }
+
+/* Potfolio_Area CSS */
 
 .potfolio_area {
 	overflow: hidden;
@@ -516,6 +516,7 @@ ul {
 .potfolio p {
 	color: #868786;
 	text-align: justify;
+	font-size: 13px;
 }
 
 .potfolio a {
@@ -524,3 +525,34 @@ ul {
 	font-size: 13px;
 	float: right;
 }
+
+/* Main_Footer Area CSS */
+
+.main_footer_area {}
+
+.main_footer {background: #323332;
+	position: relative;
+	max-height: 100%;
+	border-radius: 5px;
+	padding: 0px;
+	z-index: 1;}
+
+.main_footer::before {background: #2b2b2b;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	left: 0;
+	content: "";
+	z-index: -1;
+	bottom: 0;
+	border-radius: 5px;}
+
+.main_footer h2 {}
+
+.main_footer h1 {}
+
+.main_footer p {}
+
+.main_footer p span {}
+
+.main_footer a {}
