@@ -292,7 +292,7 @@ ul {
 #main_menu ul ul {
 	position: absolute;
 	background: #2c2d2c;
-	width: 160px;
+	width: 170px;
 	top: 54px;
 	text-align: center;
 	left: -99999px;
@@ -309,24 +309,24 @@ ul {
 }
 
 #main_menu ul ul li:hover ul {
-	left: 160px;
+	left: 170px;
 
 }
 
 #main_menu ul ul li {
 	margin: 0;
 	display: block;
-
+	text-align: left;
 }
 
 #main_menu ul ul li a {
-	padding: 15px 0px;
+	padding: 10px 10px;
 	color: #fff;
 
 }
 
 #main_menu ul ul ul {
-	left: 160px;
+	left: 170px;
 	top: 0px;
 
 }
