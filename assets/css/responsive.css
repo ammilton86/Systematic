@@ -1,7 +1,9 @@
 /* Tablet Screen */
-@media only screen and (max-width:768px;){
-    background-color: #000;
+@media only screen (min-width:300px) and (max-width:768px){
+
+    
 }
+    
 
 /* 
   ##Device = Desktops
