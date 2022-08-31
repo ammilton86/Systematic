@@ -1,8 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function () {
   $('.your-class').slick({
     autoplay: true,
-    autoplaySpeed:3000,
+    autoplaySpeed: 3000,
     dots: true,
+  });
+  $('#main_menu').meanmenu({
     
   });
 });
