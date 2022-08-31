@@ -5,6 +5,7 @@ $(document).ready(function () {
     dots: true,
   });
   $('#main_menu').meanmenu({
-    
+    meanMenuContainer:'#mobile_menu',
+    meanScreenWidth:768,
   });
 });
