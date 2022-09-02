@@ -5,6 +5,27 @@
     .main_header_area {
         padding: 20px 0px;
     }
+    .paragraph_content h2 {
+        font-size: 75px;
+        padding: 0;
+    }
+    .paragraph_content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .work_area h2 {
+        padding: 50px 0;
+        font-size: 22px;
+    }
+    .service_content p {
+        line-height: 15px;
+    }
+    .potfolio_inner {
+        padding-bottom: 0px;
+    }
+    .potfolio p {
+        line-height: 16px;
+    }
 
 }
 
