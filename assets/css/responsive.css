@@ -5,10 +5,7 @@
     .main_header_area {
         padding: 20px 0px;
     }
-    .inner_menu {
-        background: none;
-    
-    }
+
 }
 
 /* Tablet Screen L*/
@@ -17,10 +14,7 @@
     .main_header_area {
         padding: 20px 0px;
     }
-    .inner_menu {
-        background: none;
-    
-    }
+  
 }
 
 /* Mobile Screen P*/
@@ -29,11 +23,7 @@
     .main_header_area {
         padding: 20px 0px;
     }
-    .inner_menu {
-        background: none;
-    
-    }
-}
+  
 
 /* Mobile Screen P*/
 
@@ -41,10 +31,7 @@
     .main_header_area {
         padding: 20px 0px;
     }
-    .inner_menu {
-        background: none;
-    
-    }
+   
 }
 
 /* Tablet Screen L*/
@@ -53,8 +40,5 @@
     .main_header_area {
         padding: 20px 0px;
     }
-    .inner_menu {
-        background: none;
-    
-    }
+   
 }
