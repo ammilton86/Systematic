@@ -123,6 +123,9 @@ ul {
 	color: #000;
 	text-align: left;
 }
+.inner_top_area input:focus {
+	outline:none;
+}
 
 .inner_top_area input[type="submit"] {
 	width: 27%;

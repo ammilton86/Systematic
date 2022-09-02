@@ -1,8 +1,24 @@
 
-/* Tablet Screen */
+/* Tablet Screen P*/
 
-@media only screen and(min-width:768) and (max-width:1024) {
+@media screen and (min-width:768px) {
     .main_header_area {
         padding: 20px 0px;
+    }
+    .inner_menu {
+        background: none;
+    
+    }
+}
+
+/* Tablet Screen P*/
+
+@media screen and (min-width:1024px) {
+    .main_header_area {
+        padding: 20px 0px;
+    }
+    .inner_menu {
+        background: none;
+    
     }
 }
