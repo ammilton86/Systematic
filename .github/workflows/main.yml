@@ -18,4 +18,4 @@ jobs:
         server: ${{ secrets.SERVER_NAME }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        server-dir: /public_html/milton/sys/
+        server-dir: /sys/
