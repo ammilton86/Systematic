@@ -11,9 +11,45 @@
     }
 }
 
-/* Tablet Screen P*/
+/* Tablet Screen L*/
 
 @media screen and (min-width:1024px) {
+    .main_header_area {
+        padding: 20px 0px;
+    }
+    .inner_menu {
+        background: none;
+    
+    }
+}
+
+/* Mobile Screen P*/
+
+@media screen and (max-width:767px) {
+    .main_header_area {
+        padding: 20px 0px;
+    }
+    .inner_menu {
+        background: none;
+    
+    }
+}
+
+/* Mobile Screen P*/
+
+@media screen and (mapeex-width:767px) {
+    .main_header_area {
+        padding: 20px 0px;
+    }
+    .inner_menu {
+        background: none;
+    
+    }
+}
+
+/* Tablet Screen L*/
+
+@media screen and (min-width:1200px) {
     .main_header_area {
         padding: 20px 0px;
     }
