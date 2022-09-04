@@ -1,65 +1,45 @@
-
 /* Tablet Screen P*/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768) {
     .main_header_area {
         padding: 20px 0px;
     }
+
     .paragraph_content h2 {
         font-size: 75px;
         padding: 0;
     }
+
     .paragraph_content p {
         font-size: 13px;
         line-height: 20px;
     }
+
     .work_area h2 {
         padding: 50px 0;
         font-size: 22px;
     }
+
     .service_content p {
         line-height: 15px;
     }
+
     .potfolio_inner {
         padding-bottom: 0px;
     }
+
     .potfolio p {
         line-height: 16px;
     }
 
+    .main_footer h2 {
+        font-size: 13px;
+    }
 }
 
 /* Tablet Screen L*/
 
 @media screen and (min-width:1024px) {
-    .main_header_area {
-        padding: 20px 0px;
-    }
-  
-}
-
-/* Mobile Screen P*/
-
-@media screen and (max-width:767px) {
-    .main_header_area {
-        padding: 20px 0px;
-    }
   
 
-/* Mobile Screen P*/
-
-@media screen and (mapeex-width:767px) {
-    .main_header_area {
-        padding: 20px 0px;
-    }
-   
-}
-
-/* Tablet Screen L*/
-
-@media screen and (min-width:1200px) {
-    .main_header_area {
-        padding: 20px 0px;
-    }
-   
 }
