@@ -1,6 +1,6 @@
 /* Tablet Screen P*/
 
-@media screen and (min-width:768) {
+@media screen and (min-width:768px) {
     .main_header_area {
         padding: 20px 0px;
     }
@@ -9,7 +9,6 @@
         font-size: 75px;
         padding: 0;
     }
-
     .paragraph_content p {
         font-size: 13px;
         line-height: 20px;
@@ -39,7 +38,126 @@
 
 /* Tablet Screen L*/
 
-@media screen and (min-width:1024px) {
-  
+@media screen and (max-width:1024px) {
+    .main_header_area {
+        padding: 20px 0px;
+    }
+
+    .paragraph_content h2 {
+        font-size: 75px;
+        padding: 0;
+    }
+    .paragraph_content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #main_menu ul li a {
+        padding: 15px 15px;
+    }
+
+    .work_area h2 {
+        padding: 50px 0;
+        font-size: 22px;
+    }
+
+    .service_content p {
+        line-height: 15px;
+    }
+
+    .potfolio_inner {
+        padding-bottom: 0px;
+    }
+
+    .potfolio p {
+        line-height: 16px;
+    }
+
+    .main_footer h2 {
+        font-size: 13px;
+    }
+
+
+    /* Mobile Screen P*/
+
+@media screen and (min-width:375px) {
+    .main_header_area {
+        padding: 20px 0px;
+    }
+
+    .paragraph_content h2 {
+        font-size: 75px;
+        padding: 0;
+    }
+    .paragraph_content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #main_menu ul li a {
+        padding: 15px 15px;
+    }
+
+    .work_area h2 {
+        padding: 50px 0;
+        font-size: 22px;
+    }
+
+    .service_content p {
+        line-height: 15px;
+    }
+
+    .potfolio_inner {
+        padding-bottom: 0px;
+    }
+
+    .potfolio p {
+        line-height: 16px;
+    }
+
+    .main_footer h2 {
+        font-size: 13px;
+    }
+
+}
+    /* Mobile Screen L*/
+
+    @media screen and (max-width:667px) {
+        .main_header_area {
+            padding: 20px 0px;
+        }
+    
+        .paragraph_content h2 {
+            font-size: 75px;
+            padding: 0;
+        }
+        .paragraph_content p {
+            font-size: 13px;
+            line-height: 20px;
+        }
+        #main_menu ul li a {
+            padding: 15px 15px;
+        }
+    
+        .work_area h2 {
+            padding: 50px 0;
+            font-size: 22px;
+        }
+    
+        .service_content p {
+            line-height: 15px;
+        }
+    
+        .potfolio_inner {
+            padding-bottom: 0px;
+        }
+    
+        .potfolio p {
+            line-height: 16px;
+        }
+    
+        .main_footer h2 {
+            font-size: 13px;
+        }
+    
+    }
 
 }
