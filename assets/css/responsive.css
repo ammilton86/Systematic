@@ -1,163 +1,74 @@
 /* Tablet Screen P*/
 
-@media screen and (min-width:768px) {
-    .main_header_area {
-        padding: 20px 0px;
+@media screen and (min-width:375px) and (max-width:667px) {
+    .inner_top_area {
+        float: none;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .header_top_area {
+        padding: 5px 0;
+    }
+    .minimenu {
+        text-align: center;
     }
 
+    .main_header_area {
+        padding: 5px 0px;
+    }
+    .logo_area {
+        text-align: center;
+    }
+    .logo_area img {
+        width: 45%;
+    }
+    .social_area {
+        text-align: center;
+    }
+    .mean-container .mean-bar {
+        padding: 0px 0;
+        min-height: 15px;
+    }
+    .mean-container a.meanmenu-reveal {
+        padding: 10px 13px 11px;
+    }
+   
+   
+    .slider_area {
+        margin-top: 10px;
+    }
+    .paragraph_area {
+        margin-top: 10px;
+    }
+    .paragraph_img img {
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
     .paragraph_content h2 {
-        font-size: 75px;
-        padding: 0;
+        font-size: 59px;
+        padding:  0px;
     }
     .paragraph_content p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .work_area h2 {
-        padding: 50px 0;
-        font-size: 22px;
-    }
-
-    .service_content p {
+        font-size: 10px;
         line-height: 15px;
-    }
-
-    .potfolio_inner {
-        padding-bottom: 0px;
-    }
-
-    .potfolio p {
-        line-height: 16px;
-    }
-
-    .main_footer h2 {
-        font-size: 13px;
-    }
-}
-
-/* Tablet Screen L*/
-
-@media screen and (max-width:1024px) {
-    .main_header_area {
-        padding: 20px 0px;
-    }
-
-    .paragraph_content h2 {
-        font-size: 75px;
-        padding: 0;
-    }
-    .paragraph_content p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-    #main_menu ul li a {
-        padding: 15px 15px;
-    }
-
+    }    
     .work_area h2 {
-        padding: 50px 0;
-        font-size: 22px;
+        padding: 10px 0;
+        font-size: 20px;
     }
-
-    .service_content p {
-        line-height: 15px;
-    }
-
-    .potfolio_inner {
-        padding-bottom: 0px;
-    }
-
-    .potfolio p {
-        line-height: 16px;
-    }
-
     .main_footer h2 {
-        font-size: 13px;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 15px;
     }
-
-
-    /* Mobile Screen P*/
-
-@media screen and (min-width:375px) {
-    .main_header_area {
-        padding: 20px 0px;
+    .footer_area {
+        padding: 5px 0;
     }
-
-    .paragraph_content h2 {
-        font-size: 75px;
-        padding: 0;
+    .footer_copyright_area{text-align: center;font-size: 12px;}
+    .footer_copyright_text_right p {
+        text-align: center;
+        font-size: 12px;
     }
-    .paragraph_content p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-    #main_menu ul li a {
-        padding: 15px 15px;
-    }
-
-    .work_area h2 {
-        padding: 50px 0;
-        font-size: 22px;
-    }
-
-    .service_content p {
-        line-height: 15px;
-    }
-
-    .potfolio_inner {
-        padding-bottom: 0px;
-    }
-
-    .potfolio p {
-        line-height: 16px;
-    }
-
-    .main_footer h2 {
-        font-size: 13px;
-    }
-
-}
-    /* Mobile Screen L*/
-
-    @media screen and (max-width:667px) {
-        .main_header_area {
-            padding: 20px 0px;
-        }
-    
-        .paragraph_content h2 {
-            font-size: 75px;
-            padding: 0;
-        }
-        .paragraph_content p {
-            font-size: 13px;
-            line-height: 20px;
-        }
-        #main_menu ul li a {
-            padding: 15px 15px;
-        }
-    
-        .work_area h2 {
-            padding: 50px 0;
-            font-size: 22px;
-        }
-    
-        .service_content p {
-            line-height: 15px;
-        }
-    
-        .potfolio_inner {
-            padding-bottom: 0px;
-        }
-    
-        .potfolio p {
-            line-height: 16px;
-        }
-    
-        .main_footer h2 {
-            font-size: 13px;
-        }
-    
-    }
-
 }
