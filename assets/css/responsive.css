@@ -1,74 +1,85 @@
 /* Mobile Screen*/
 
-@media screen and (min-width:375px) and (max-width:767px) {
-    .inner_top_area {
-        float: none;
-        width: 200px;
-        margin: 0 auto;
-    }
-    .header_top_area {
-        padding: 5px 0;
-    }
-    .minimenu {
-        text-align: center;
-    }
+@media screen and (min-width:240px) and (max-width:320px){
+     .header_top_area {        padding: 5px 0;    }
+    .minimenu ul li { margin-right: 0px; }
+    .minimenu ul li a {        font-size: 8px;        padding: 0px 2px;    }
+    .minimenu ul li::after {        top: 11px;        height: 8px;    }
+    .minimenu {        text-align: center;    }
+    .inner_top_area {        float: none;        width: 200px;        margin: 0 auto;    }
 
-    .main_header_area {
-        padding: 5px 0px;
-    }
-    .logo_area {
-        text-align: center;
-    }
-    .logo_area img {
-        width: 45%;
-    }
-    .social_area {
-        text-align: center;
-    }
-    .mean-container .mean-bar {
-        padding: 0px 0;
-        min-height: 15px;
-    }
-    .mean-container a.meanmenu-reveal {
-        padding: 10px 13px 11px;
-    }
-   
-   
-    .slider_area {
-        margin-top: 10px;
-    }
-    .paragraph_area {
-        margin-top: 10px;
-    }
-    .paragraph_img img {
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-    .paragraph_content h2 {
-        font-size: 59px;
-        padding:  0px;
-    }
-    .paragraph_content p {
-        font-size: 10px;
-        line-height: 15px;
-    }    
-    .work_area h2 {
-        padding: 10px 0;
-        font-size: 20px;
-    }
-    .main_footer h2 {
-        padding-top: 10px;
-        margin-top: 10px;
-        margin-bottom: 0px;
-        font-size: 15px;
-    }
-    .footer_area {
-        padding: 5px 0;
-    }
+    .main_header_area {        padding: 5px 0px;    }
+    .logo_area {        text-align: center;    }
+    .logo_area img {        width: 45%;    }
+    .social_area {        text-align: center;    }
+    .social_area ul li a i {        padding-top: 7px;        width: 30px;        height: 30px;    }
+    .fa {        margin-right: 5px;        }
+    .mean-container .mean-bar {        padding: 0px 0;        min-height: 15px;    }
+    .mean-container a.meanmenu-reveal {        padding: 6px 10px 11px;    }   
+    .mean-container .mean-nav {        margin-top: 33px;    }
+    .slider_area {        margin-top: 10px;    }
+    .paragraph_area {        margin-top: 10px;    }
+    .paragraph_img img {        width: 100%;        height: auto;        clear: both;    }
+    .paragraph_content h2 {        font-size: 34px;        padding:  0px;    }
+    .paragraph_content p {        font-size: 10px;        line-height: 15px;    }    
+    .work_area h2 {        padding: 10px 0;        font-size: 20px;    }
+    .main_footer h2 {        padding-top: 10px;        margin-top: 10px;        margin-bottom: 0px;        font-size: 15px;    }
+    .footer_area {        padding: 5px 0;    }
     .footer_copyright_area{text-align: center;font-size: 12px;}
-    .footer_copyright_text_right p {
-        text-align: center;
-        font-size: 12px;
-    }
+    .footer_copyright_text_right p {        text-align: center;        font-size: 12px;    }
+}
+/* Mobile Screen*/
+
+@media screen and (min-width:321px) and (max-width:540px){
+    .inner_top_area {        float: none;        width: 200px;        margin: 0 auto;    }
+    .header_top_area {        padding: 5px 0;    }
+    .minimenu {        text-align: center;    }
+    .minimenu ul li a {        font-size: 11px;        padding: 0px 3px;    }
+
+    .main_header_area {        padding: 5px 0px;    }
+    .logo_area {        text-align: center;    }
+    .logo_area img {        width: 45%;    }
+    .social_area {        text-align: center;    }
+    .mean-container .mean-bar {        padding: 0px 0;        min-height: 15px;    }
+    .mean-container a.meanmenu-reveal {        padding: 10px 13px 11px;    }   
+    .slider_area {        margin-top: 10px;    }
+    .paragraph_area {        margin-top: 10px;    }
+    .paragraph_img img {        width: 100%;        height: auto;        clear: both;    }
+    .paragraph_content h2 {        font-size: 59px;        padding:  0px;    }
+    .paragraph_content p {        font-size: 10px;        line-height: 15px;    }    
+    .work_area h2 {        padding: 10px 0;        font-size: 20px;    }
+    .main_footer h2 {        padding-top: 10px;        margin-top: 10px;        margin-bottom: 0px;        font-size: 15px;    }
+    .footer_area {        padding: 5px 0;    }
+    .footer_copyright_area{text-align: center;font-size: 12px;}
+    .footer_copyright_text_right p {        text-align: center;        font-size: 12px;    }
+}
+/* Mini Tablet Screen*/
+
+@media screen and (min-width:541px) and (max-width:767px){
+    .inner_top_area {        float: none;        width: 200px;        margin: 0 auto;    }
+    .header_top_area {        padding: 5px 0;    }
+    .minimenu {        text-align: center;    }
+    .minimenu ul li a {        font-size: 11px;        padding: 0px 3px;    }
+
+    .main_header_area {        padding: 5px 0px;    }
+    .logo_area {        text-align: center;    }
+    .logo_area img {        width: 45%;    }
+    .social_area {        text-align: center;    }
+    .mean-container .mean-bar {        padding: 0px 0;        min-height: 15px;    }
+    .mean-container a.meanmenu-reveal {        padding: 10px 13px 11px;    }   
+    .slider_area {        margin-top: 10px;    }
+    .paragraph_area {        margin-top: 10px;    }
+    .paragraph_img img {        width: 100%;        height: auto;        clear: both;    }
+    .paragraph_content h2 {        font-size: 59px;        padding:  0px;    }
+    .paragraph_content p {        font-size: 10px;        line-height: 15px;    }    
+    .work_area h2 {        padding: 10px 0;        font-size: 20px;    }
+    .main_footer h2 {        padding-top: 10px;        margin-top: 10px;        margin-bottom: 0px;        font-size: 15px;    }
+    .footer_area {        padding: 5px 0;    }
+    .footer_copyright_area{text-align: center;font-size: 12px;}
+    .footer_copyright_text_right p {        text-align: center;        font-size: 12px;    }
+}
+/* Tablet Screen*/
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
 }
