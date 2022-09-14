@@ -6,6 +6,6 @@ $(document).ready(function () {
   });
   $('#main_menu').meanmenu({
     meanMenuContainer:'#mobile_menu',
-    meanScreenWidth:810,
+    meanScreenWidth:990,
   });
 });
