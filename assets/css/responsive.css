@@ -46,7 +46,10 @@
     .paragraph_area {        margin-top: 10px;    }
     .paragraph_img img {        width: 100%;        height: auto;        clear: both;    }
     .paragraph_content h2 {        font-size: 59px;        padding:  0px;    }
-    .paragraph_content p {        font-size: 10px;        line-height: 15px;    }    
+    .paragraph_content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
     .work_area h2 {        padding: 10px 0;        font-size: 20px;    }
     .main_footer h2 {        padding-top: 10px;        margin-top: 10px;        margin-bottom: 0px;        font-size: 15px;    }
     .footer_area {        padding: 5px 0;    }
