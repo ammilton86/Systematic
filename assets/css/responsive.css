@@ -81,5 +81,44 @@
 /* Tablet Screen*/
 
 @media screen and (min-width:768px) and (max-width:1024px){
+    .logo_area img {        width: 100%;    }
+    .paragraph_content h2 {
+        font-size: 57px;
+        line-height: 50px;
+        padding: 15px 0;
+    }
+    .work_area h2 {
+        padding: 30px 0;
+        font-size: 22px;
+    }
+    .service_content {
+        padding-bottom: 52px;
+    }
+    .potfolio_inner {
+        padding-bottom: 0px;
+    }
+    .about_area p {
+        padding-bottom: 52px;
+    }
+    .main_footer h2 {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .main_footer ul li {
+        font-size: 11px;
+    }
+    .main_footer p {
+        font-size: 11px;
+    }
+    .main_footer_content h3 {
+        padding: 0px;
+    }
+    .main_footer_content a {
+        padding: 0px;
+    }
+    .footer_copyright_area p{font-size: 13px;}
+    .footer_copyright_text_right p{font-size: 13px;}
 
 }
